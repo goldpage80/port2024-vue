@@ -191,10 +191,3 @@ import { introText } from "@/constants/index";
         }
     }
 </style>
-
-<script>
-export const introText = {
-    title: "port developer",
-    desc: ["talent is", "found at the end of the", "effort"],
-};
-</script>
