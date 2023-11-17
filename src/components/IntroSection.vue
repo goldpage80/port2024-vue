@@ -6,7 +6,7 @@ import { introText } from "@/constants/index";
     <section id="intro">
         <div class="intro__inner">
             <h2 class="intro__title">
-                port developer
+                {{ introText.title }}
             </h2>
             <div class="intro__lines" aria-hidden="true">
                 <span class="line"></span>
@@ -19,9 +19,9 @@ import { introText } from "@/constants/index";
             </div>
             <div class="intro__text">
                 <div class="text">
-                    <div>talent is</div>
-                    <div>found at the end of the</div>
-                    <div>effort</div>
+                    <div>{{ introText.desc[0] }}</div>
+                    <div>{{ introText.desc[1] }}</div>
+                    <div>{{ introText.desc[2] }}</div>
                 </div>
                 <div class="img">
                     <img src="@assets/img/about.jpg" alt="어바웃" />
